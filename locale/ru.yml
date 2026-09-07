@@ -1,0 +1,60 @@
+stezkoy-ai-openreply:
+  admin:
+    settings:
+      opencode_url_label: URL opencode-сервера
+      opencode_url_help: "Адрес вашего headless-сервера opencode. Запустите его командой <code>opencode serve</code> (порт по умолчанию 4096)."
+      opencode_intro: "OpenCode — это опенсорсный ИИ-агент для написания кода, работающий локально в терминале. Именно он генерирует AI-ответы этого расширения. Зайдите на сайт, чтобы узнать больше и настроить его на своём сервере."
+      opencode_username_label: Логин opencode-сервера
+      opencode_username_help: "Логин для basic-аутентификации. По умолчанию <code>opencode</code>, если оставить пустым."
+      opencode_password_label: Пароль opencode-сервера
+      opencode_password_help: "Необязательно. Значение <code>OPENCODE_SERVER_PASSWORD</code>, если вы запустили сервер с basic-аутентификацией."
+      opencode_agent_label: Агент (поведение)
+      opencode_agent_default_option: — по умолчанию —
+      opencode_agent_help: "Готовый пресет, задающий стиль ответа. build — отвечает сразу; plan — сначала обдумывает. Оба входят в opencode; оставьте «по умолчанию» для простого прямого ответа."
+      opencode_system_prompt_label: Системный промпт (персона)
+      opencode_system_prompt_help: "Необязательно: свободный текст с инструкциями о поведении ассистента, отправляется с каждым сообщением."
+      opencode_system_prompt_placeholder: "Например: «Называй себя Пупсик и отвечай по-русски»"
+      model_label: Модель
+      model_help: "Укажите <code>провайдер/модель</code> (например <code>opencode/big-pickle</code>). Оставьте пустым, чтобы использовать модель сервера по умолчанию."
+      model_load_button: Получить бесплатные модели
+      model_loading: Загружаю доступные бесплатные модели…
+      model_list_hint: "Клик по модели вставит её в поле:"
+      model_no_free: Бесплатных моделей на доступных провайдерах не найдено.
+      model_load_fail: Не удалось загрузить список моделей с opencode-сервера. Проверьте подключение и попробуйте снова.
+      user_prompt_label: Пользователь-ассистент
+      user_prompt_help: Укажите ID пользователя, от имени которого будут создаваться ответы.
+      user_prompt_badge_label: Бейдж пользователя-ассистента
+      user_prompt_badge_help: Текст, отображаемый под пользователем-ассистентом.
+      enable_on_discussion_started_label: Отвечать при создании обсуждения
+      enable_on_discussion_started_help: Если включено, ассистент отвечает только на первый пост обсуждения. Если выключено, обсуждение превращается в чат между автором и ассистентом — ассистент отвечает на каждое сообщение автора.
+      actions_label: Действия
+      actions_help: "Проверьте подключение к серверу opencode или закройте все активные сессии для освобождения памяти."
+      check_connection_label: Проверить подключение
+      session_count_label: Количество сессий
+      close_all_sessions_label: Закрыть все сессии
+      connection_success: Подключение успешно. Сервер opencode доступен.
+      connection_success_with_model: "Подключение успешно. Модель: {model}."
+      connection_success_default_model: "Подключение успешно. Модель не задана — будет использоваться модель сервера по умолчанию {model}."
+      connection_success_no_model: Подключение успешно. Модель не задана — будет использоваться модель по умолчанию.
+      connection_fail: Не удалось подключиться. Убедитесь, что сервер запущен и данные для входа верны.
+      sessions_closed: Сессии закрыты.
+      session_count_result: "Сессий на сервере: {total}. Сессий расширения: {extension}."
+      session_count_fail: Не удалось посчитать сессии. Сначала проверьте подключение.
+      sessions_close_fail: Не удалось закрыть сессии. Сначала проверьте подключение.
+      limits_label: Лимиты ресурсов
+      max_active_sessions_label: Макс. число активных сессий
+      max_active_sessions_help: Максимальное число сессий opencode, удерживаемых в памяти одновременно. Сначала закрываются самые старые. 0 — без ограничения.
+      max_messages_per_session_label: Макс. сообщений на сессию
+      max_messages_per_session_help: Максимальное число ответов AI на одну сессию, после чего она закрывается для освобождения памяти. 0 — без ограничения.
+      session_ttl_days_label: TTL сессии (дней)
+      session_ttl_days_help: Сессии, неактивные дольше этого числа дней, закрываются для освобождения памяти. 0 — без TTL.
+      retry_label: Повторные попытки (ретраи)
+      retry_attempts_label: Число попыток
+      retry_attempts_help: Общее число попыток (включая первую) на каждый запрос к opencode-серверу. Неудачные запросы повторяются с задержкой ниже. 1 — без ретраев.
+      retry_delay_seconds_label: Задержка между попытками (сек)
+      retry_delay_seconds_help: Секунды ожидания перед каждой повторной попыткой. 0 — без задержки.
+      enabled_tags_label: Теги
+      enabled_tags_help: Выберите теги, в которых ассистент будет генерировать ответы.
+      enabled_tags_empty: Расширение flarum-tags должно быть включено, чтобы выбирать теги.
+    permissions:
+      use_ai_assistant_label: Использовать AI-ассистента

@@ -1,0 +1,77 @@
+.AIOpenReplySettings {
+  max-width: 700px;
+  .Form-group {
+    + .Form-group {
+      margin-top: 14px;
+    }
+
+    select.FormControl {
+      max-width: 400px;
+    }
+  }
+  textarea.FormControl {
+    max-width: 400px;
+  }
+  .AIOpenReplyCustomModel {
+    margin-top: 8px;
+    max-width: 400px;
+  }
+
+  .AIOpenReplyModelList {
+    margin-top: 6px;
+
+    ul {
+      margin: 4px 0 0;
+      padding-left: 18px;
+      list-style: disc;
+      columns: 2;
+      column-gap: 16px;
+    }
+
+    li {
+      margin-bottom: 4px;
+      break-inside: avoid;
+    }
+
+    li button.Button {
+      display: inline-flex;
+      align-items: baseline;
+      gap: 6px;
+      padding: 2px 6px;
+      font-size: 13px;
+      background: none;
+      border: 1px solid transparent;
+
+      &:hover, &:focus {
+        border-color: var(--control-color);
+        background: var(--control-bg);
+      }
+
+      code {
+        color: var(--text-color);
+        font-size: 13px;
+      }
+      span {
+        color: var(--muted-color);
+        font-size: 12px;
+      }
+    }
+  }
+
+  .helpText {
+    margin-top: 4px;
+  }
+
+  .AIOpenReplyHero {
+    margin-bottom: 20px;
+    max-width: 640px;
+
+    p {
+      margin: 0 0 6px;
+    }
+
+    .AIOpenReplyLink {
+      font-size: 13px;
+    }
+  }
+}
