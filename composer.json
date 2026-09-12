@@ -1,0 +1,82 @@
+{
+    "name": "stezkoy/flarum-ai-openreply",
+    "description": "AI Open-Reply Extension for Flarum, powered by opencode.",
+    "keywords": [
+        "flarum",
+        "ai",
+        "openreply",
+        "autoreply",
+        "opencode",
+        "assistant",
+        "chatbot"
+    ],
+    "type": "flarum-extension",
+    "license": "MIT",
+    "require": {
+        "php": "^8.3",
+        "flarum/core": "^2.0",
+        "guzzlehttp/guzzle": "^7.10"
+    },
+    "authors": [
+        {
+            "name": "Ngo Quoc Dat",
+            "email": "datlechin@gmail.com",
+            "role": "Original Developer",
+            "homepage": "https://ngoquocdat.dev"
+        },
+        {
+            "name": "Michael V.",
+            "email": "michael@michaelbelgium.me",
+            "role": "Developer",
+            "homepage": "https://michaelbelgium.me"
+        },
+        {
+            "name": "Stezkoy",
+            "email": "stezko@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "source": "https://github.com/stezkoy/flarum-ai-openreply",
+        "issues": "https://github.com/stezkoy/flarum-ai-openreply/issues",
+        "forum": "https://discuss.flarum.org/"
+    },
+    "autoload": {
+        "psr-4": {
+            "Stezkoy\\FlarumAIOpenReply\\": "src/"
+        }
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "AI Open-Reply",
+            "category": "feature",
+            "icon": {
+                "image": "icon.svg"
+            }
+        },
+        "flarum-cli": {
+            "modules": {
+                "admin": true,
+                "forum": true,
+                "js": true,
+                "jsCommon": false,
+                "css": true,
+                "locale": true,
+                "gitConf": true,
+                "githubActions": false,
+                "prettier": true,
+                "typescript": true,
+                "bundlewatch": false,
+                "backendTesting": false,
+                "editorConfig": true,
+                "styleci": false
+            }
+        }
+    },
+    "prefer-stable": true,
+    "config": {
+        "allow-plugins": {
+            "php-http/discovery": true
+        }
+    }
+}
