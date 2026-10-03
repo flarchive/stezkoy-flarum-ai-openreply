@@ -2,13 +2,20 @@
 
 > **Read-only archive of released versions of stezkoy/flarum-ai-openreply.** Not for installation: use [Packagist](https://packagist.org/packages/stezkoy/flarum-ai-openreply) or the [upstream repository](https://github.com/Stezkoy/flarum-ai-openreply).
 
-**0** versions archived · Latest: [`3.0.1`](https://github.com/flarchive/stezkoy-flarum-ai-openreply/tree/archive/v3.0.1) · License: `MIT` · Flarum: `^2.0`
+**8** versions archived · Latest: [`3.0.1`](https://github.com/flarchive/stezkoy-flarum-ai-openreply/tree/archive/v3.0.1) · License: `MIT` · Flarum: `^2.0`
 
 ## Archived Versions
 
 | Version | Released | Flarum | Source |
 |---|---|---|---|
-| — | — | — | — |
+| `1.0.0-Alpha.1` | 2026-09-07 | `^2.0` | [Browse](https://github.com/flarchive/stezkoy-flarum-ai-openreply/tree/archive/v1.0.0-Alpha.1) |
+| `1.0.0-Alpha.2` | 2026-09-07 | `^2.0` | [Browse](https://github.com/flarchive/stezkoy-flarum-ai-openreply/tree/archive/v1.0.0-Alpha.2) |
+| `1.0.0-beta.1` | 2026-09-08 | `^2.0` | [Browse](https://github.com/flarchive/stezkoy-flarum-ai-openreply/tree/archive/v1.0.0-beta.1) |
+| `1.0.0-beta.2` | 2026-09-09 | `^2.0` | [Browse](https://github.com/flarchive/stezkoy-flarum-ai-openreply/tree/archive/v1.0.0-beta.2) |
+| `1.0.0-beta.3` | 2026-09-10 | `^2.0` | [Browse](https://github.com/flarchive/stezkoy-flarum-ai-openreply/tree/archive/v1.0.0-beta.3) |
+| `2.0.0` | 2026-09-12 | `^2.0` | [Browse](https://github.com/flarchive/stezkoy-flarum-ai-openreply/tree/archive/v2.0.0) |
+| `3.0.0` | 2026-09-22 | `^2.0` | [Browse](https://github.com/flarchive/stezkoy-flarum-ai-openreply/tree/archive/v3.0.0) |
+| `3.0.1` | 2026-09-28 | `^2.0` | [Browse](https://github.com/flarchive/stezkoy-flarum-ai-openreply/tree/archive/v3.0.1) |
 
 Catalog entry: [packages/stezkoy-flarum-ai-openreply.json](https://github.com/flarchive/archive-index/blob/main/packages/stezkoy-flarum-ai-openreply.json)
 
